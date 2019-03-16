@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+section[data-use="gameboard"] {
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  height: 100vh;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+}
+
+div[data-vertical]{
+  display: flex;
+    /* margin-left: 300px;
+    margin-right: 300px; */
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%
+}
+
+.imgDiv img{
+height: 100%;
+width: auto;
+}
+
+
+
+
+section[data-use="menu"]{
+  width: 100%;
+  height: 5vh;
+  position: absolute;
+  display: flex;
+}
+
+p {
+  margin : 0;
+  padding-right: 20px;
+}
